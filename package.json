@@ -1,0 +1,29 @@
+{
+  "name": "calculate-videos-length",
+  "version": "1.0.0",
+  "description": "Calculate length of videos in a folder inside your JavaScript Application",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsup ./src/index.ts --format cjs,esm --dts",
+    "release": "pnpm run build && changeset publish",
+    "lint": "tsc"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "keywords": [],
+  "author": "Moheshwar Amarnath Biswas",
+  "license": "MIT",
+  "dependencies": {
+    "get-video-duration": "^4.1.0"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@types/node": "^20.10.4",
+    "prettier": "^3.1.1",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
