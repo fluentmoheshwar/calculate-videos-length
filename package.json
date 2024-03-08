@@ -1,7 +1,7 @@
 {
   "name": "calculate-videos-length",
   "type": "module",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Calculate length of videos in a folder inside your JavaScript Application",
   "engines": {
     "node": ">=20"
