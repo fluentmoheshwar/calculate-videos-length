@@ -26,13 +26,7 @@ pnpm add calculate-videos-length
 
 CommonJS:
 
-```js
-const calculateVideoLength = require("calculate-videos-length");
-
-const info = await calculateVideoLength("/media/fluentmoheshwar/Data/Song/Hindi Songs/", ".mp4");
-
-console.log(info);
-```
+CommonJS isn't supported!
 
 ES Module:
 
