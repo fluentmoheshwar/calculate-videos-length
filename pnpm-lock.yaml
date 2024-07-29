@@ -21,7 +21,7 @@ devDependencies:
     version: 3.3.2
   typescript:
     specifier: ^5.3.3
-    version: 5.5.3
+    version: 5.5.4
 
 packages:
 
@@ -1008,8 +1008,8 @@ packages:
       is-number: 7.0.0
     dev: true
 
-  /typescript@5.5.3:
-    resolution: {integrity: sha512-/hreyEujaB0w76zKo6717l3L0o/qEUtRgdvUBvlkhoWeOVMjMuHNHk0BRBzikzuGDqNmPQbg5ifMEqsHLiIUcQ==}
+  /typescript@5.5.4:
+    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
